@@ -1,0 +1,27 @@
+@font-face {
+  font-family: "fonts/Unifont";
+  src: url(./unifont.ttf) format("truetype");
+}
+* {
+  font-family: "Unifont";
+}
+
+body {
+    background-color:#111111;
+    color: white;
+  }
+  
+  a { 
+    color: #3DAEE9;
+  }
+  #group {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+  }
+  
+  #Back  {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
