@@ -1,6 +1,6 @@
 @font-face {
   font-family: "Unifont";
-  src: url('https://github.com/Wiretable/Website/blob/main/docs/fonts/unifont.ttf?raw=true') format("truetype");
+  src: url('./fonts/unifont.ttf') format("truetype");
 }
 * {
   font-family: "Unifont";
