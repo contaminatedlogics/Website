@@ -1,6 +1,6 @@
 @font-face {
   font-family: Unifont;
-  src: url('../Website/unifont.ttf') format("truetype");
+  @import url('fonts/unifont.ttf');
 }
 * {
   font-family: "Unifont";
