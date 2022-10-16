@@ -1,7 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@0;1&display=swap'); /* roboto */
+@font-face {
+  font-family: 'Unifont';
+  src: url('fonts/Unifont.ttf') format('truetype'),
+}
+
 
 * {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Unifont";
 }
 
 body {
