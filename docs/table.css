@@ -1,7 +1,17 @@
 @font-face {
-  font-family: Unifont;
-  @import url('fonts/unifont.ttf');
+  font-family: 'Unifont';
+  src: url('fonts/Unifont.eot');
+  src: url('fonts/Unifont.eot?#iefix') format('embedded-opentype'),
+      url('fonts/Unifont.woff2') format('woff2'),
+      url('fonts/Unifont.woff') format('woff'),
+      url('fonts/Unifont.ttf') format('truetype'),
+      url('fonts/Unifont.svg#UnifontMedium') format('svg');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
 }
+
+
 * {
   font-family: "Unifont";
 }
