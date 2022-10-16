@@ -1,13 +1,7 @@
-
-@import url('fonts/Unifont.ttf');
-@font-face {
-  font-family: 'Unifont';
-  src: url('fonts/Unifont.ttf') format('truetype'),
-}
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@0;1&display=swap');
 
 * {
-  font-family: "Unifont";
+  font-family: 'Roboto', sans-serif;
 }
 
 body {
