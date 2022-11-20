@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="style.css">  
+  <link rel="shortcut icon" href="images/logothick.png" type="image/x-icon">
+
+</head>
+<title>Wiretable</title>
+<body>
+  <style>
+* {
+  font-family: "Roboto";
+  }
+  </style>
+<center>  
+  <object>
+  <object data="main.html" style="width:100%">
+  </object>
+  <p class="paragraph">
+
+<h1>the "lambdalatex.wiretable.eu.org" domain is now obselete
+use "https:/wiretable.eu.org" instead. </h1>
+
+
+
+
+
+
+
+</center>
+</body>
+</html>
+
+
+<link itemprop="icon" href="images/logothin.png" />
+
+<meta property="og:title" content="Wiretable" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://wiretable.eu.org" />
+<meta property="og:image" content="icon" />
+<meta property="og:description" content="OBSELETE DOMAIN" />
+<meta name="theme-color" content="#CFB701">
+<meta name="twitter:card" content="summary_large_image">  
+
+<span class='icon'></span>
