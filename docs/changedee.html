@@ -15,23 +15,45 @@
   <object>
     <object data="main.html" style="width:100%">
     </object>
-    <center>
-  
+    <a href="javascript:void(0);" onclick="toggleMute()">  <img id="muteicon" src="images/unmuted.png" style="position: fixed; right:0; bottom: 0; padding: 25px 25px;      "></a>
+    <audio id="Menu" autoplay loop>
+      <source src="./music/menu.ogg" type="audio/ogg">
+    </audio>
+
+
+<script>
+// i hate javascript
+function toggleMute() {
+   var myAudio = document.getElementById('Menu');
+   myAudio.muted = !myAudio.muted;
+   if (!myAudio.muted)
+   {
+    document.getElementById('muteicon').src = "images/unmuted.png";
+    myAudio.muted = false;
+   }
+   else
+   {
+    document.getElementById('muteicon').src = "images/muted.png";
+    myAudio.muted = true; 
+   }
+}
+</script>
+<center>
+
+
 <img src="images/ceelogo2.png" width="512" class="transparent">
+
+
+
 
 <h1>Changed by Dragonsnow</h1>
 <h2>Enhanced Edition by Wiretable</h2>
 <h3>To be announced.</h3>
 
 <h1>Info</h1>
-<h1>WARNING: SAVE FILES ARE NOT COMPATIBLE WITH EACHOTHER!</h1>
+<h1>WARNING: SAVE FILES ARE NOT COMPATIBLE WITH CLASSIC, SPECIAL NOR VICE VERSA!</h1>
+
 <div id="sameline">
-<h2>will be released on 
-<br>
-<br>Windows and Linux (x86, 64-Bit only.)
-<br>
-Android (ARM)
-</h2>
 <table>
   <tr>
     <th>Comparison</th>
@@ -55,15 +77,56 @@ Android (ARM)
   </tr>
   <tr>
     <td>Music synthesis</td>
-    <td>Famitracker (NES)</td>
-    <td>OPN2 + Ti DCSG (SMD)</td>
+    <td>Ricoh 2A03</td>
+    <td>Yahama OPN2 + Ti DCSG (Enhanced) / Ricoh 2A03 (Classic))</td>
   </tr>
-</div>
-
+<br>
 </table>
 
+<table>
+  <tr>
+    <th>Requirements</th>
+    <th>Miniumum</th>
+    <th>Recommended</th>
+  <tr>
+    <td>Linux</td>
+    <td>64-Bit, something with xorg (there so many distros to list)</td>
+    <td>64-Bit distro, preferably running on the version 6 kernel. </td>
+  </tr>
+  <tr>
+  </tr>
+  <th>Android</th>
+  <th>4.1 (32-Bit)</th>
+  <th>5.1 or newer (64-Bit)</th>
+</tr>
+    <td>Windows</td>
+    <td>Windows 7 SP1 (64-Bit)</td>
+    <td>Windows 10 (64-Bit)</td>
+  </tr>
+  <tr>
+    <td>Processor (PC)</td>
+    <td>1.5 GHz</td>
+    <td>2 GHz</td>
+  </tr>
+  <tr>
+    <td>Memory (PC)</td>
+    <td>1GB</td>
+    <td>2GB</td>
+  </tr>
+  <tr>
+    <td>Storage (PC)</td>
+    <td>250MB</td>
+    <td>500MB</td>
+  </tr>
+  <tr>
+
+  
+<br>
+</table>
+</div>
+
 <meta property="og:title" content="Wiretable" />
-<meta property="og:type" content="websihttps://github.com/Wiretable/Website/blob/main/docs/changedee.htmlte" />
+<meta property="og:type" content="website" />
 <meta property="og:url" content="Changed: Enhanced Edition" />
 <meta property="og:image" content="images/ceelogo.png" />
 <meta property="og:description" content="Changed Enhanced Edition" />  
@@ -72,4 +135,3 @@ Android (ARM)
 <meta name="twitter:card" content="summary_large_image">  
   
 <span class='icon'></span>
-

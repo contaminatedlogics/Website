@@ -14,6 +14,30 @@
   }
   </style>
   <center>
+
+    <audio id="Menu" autoplay loop>
+      <source src="./music/passport.ogg" type="audio/ogg">
+    </audio>
+<a href="javascript:void(0);" onclick="toggleMute()">  <img id="muteicon" src="images/unmuted.png"></a>
+
+
+<script>
+// i hate javascript
+function toggleMute() {
+   var myAudio = document.getElementById('Menu');
+   myAudio.muted = !myAudio.muted;
+   if (!myAudio.muted)
+   {
+    document.getElementById('muteicon').src = "images/unmuted.png";
+    myAudio.muted = false;
+   }
+   else
+   {
+    document.getElementById('muteicon').src = "images/muted.png";
+    myAudio.muted = true; 
+   }
+}
+</script>
 <p class="paragraph">
     <div>
         <img style="vertical-align:middle" src="images//lambdaengi.png"  width="256px;">
