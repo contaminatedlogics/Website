@@ -1,19 +1,33 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <link rel="stylesheet" href="style.css">  
+   <link rel="stylesheet" href="style.css">  
   <link rel="shortcut icon" href="images/puro.png" type="image/x-icon">
 </head>
-<title>Changed: Enhanced Edition</title>
+<title>CHANGED Enhanced</title>
 
 <body>
   <style>
 * {
   font-family: "Roboto";
   }
-  </style>
+  img.background {
+      position: absolute;
+      left: 0px;
+      top: 0px;
+      z-index: -1;
+      width: 100%;
+      height: 125%;
+      -webkit-filter: blur(5px);
+      filter: blur(5px);
+  }
+  body {
+    background-color:#07171f;
+  }
+
+  </style>  
   <object>
-    <object data="main.html" style="width:100%">
+    <object data="changedmain.html" style="width:100%">
     </object>
     <a href="javascript:void(0);" onclick="toggleMute()">  <img id="muteicon" src="images/unmuted.png" style="position: fixed; right:0; bottom: 0; padding: 25px 25px;      "></a>
     <audio id="Menu" autoplay loop>
@@ -41,15 +55,12 @@ function toggleMute() {
 </script>
 <center>
 
-
-<img src="images/ceelogoweb.png" width="512" class="transparent">
-
-
-
-
-<h1>Changed by Dragonsnow</h1>
-<h2>Enhanced Edition by Wiretable</h2>
-<h3>To be announced.</h3>
+  <img class="background"  src="images/background.png">
+  <p class="paragraph">
+    <div>
+<img style="vertical-align:middle"src="images/ceelogoweb.png" width="512" class="transparent">
+<span style="font-size: 5em;">Coming Soon.</span>
+</div>
 
 <h1>Info</h1>
 <h1>WARNING: SAVE FILES ARE NOT COMPATIBLE WITH CLASSIC, SPECIAL NOR VICE VERSA!</h1>
@@ -105,8 +116,8 @@ function toggleMute() {
   </tr>
   <tr>
     <td>Processor (PC)</td>
-    <td>1.5 GHz</td>
     <td>1 GHz</td>
+    <td>1.5 GHz</td>
   </tr>
   <tr>
     <td>Memory (PC)</td>
@@ -125,11 +136,11 @@ function toggleMute() {
 </table>
 </div>
 
-<meta property="og:title" content="Wiretable" />
+<meta property="og:title" content="Wiretable?" />
 <meta property="og:type" content="website" />
-<meta property="og:url" content="Changed: Enhanced Edition" />
+<meta property="og:url" content="https://wiretable.eu.org/changedee.html" />
 <meta property="og:image" content="images/ceelogo.png" />
-<meta property="og:description" content="Changed Enhanced Edition" />  
+<meta property="og:description" content="CHANGED Enhanced Edition" />  
 <meta name="theme-color" content="#111111">
 
 <meta name="twitter:card" content="summary_large_image">  
