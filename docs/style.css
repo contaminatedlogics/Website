@@ -139,7 +139,7 @@ body {
 }
 
 .subnav-content a:hover {
-  background-color: #CFB701;
+  background-color: #568100;
   color: black;
 }
 
@@ -177,4 +177,3 @@ td, th {
   justify-content: space-between;
   width: 75%;
 }
-
